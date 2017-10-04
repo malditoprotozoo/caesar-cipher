@@ -32,7 +32,7 @@ function cipher(str) {
             output += String.fromCharCode(codeAscii);
         }
     }
-    return document.write("Este es tu texto cifrado: \n" + output);
+    return alert("Este es tu texto cifrado: \n" + output);
 }
 
 //This function will uncipher any ciphered phrase. 
@@ -50,5 +50,5 @@ function decipher(str) {
             output += String.fromCharCode(codeAscii);
         }
     }
-    return document.write("Este es tu texto descifrado: \n" + output);
+    return alert("Este es tu texto descifrado: \n" + output);
 }
