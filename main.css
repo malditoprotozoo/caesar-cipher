@@ -1,8 +1,8 @@
 body {
-  background-color: #F3DD78;
+  	background-color: #F3DD78;
 }
 h1 {
-  color: #4C373E;
+  	color: #4C373E;
 	text-align: center;
 	font-family: "Exo", sans-serif;
 }
@@ -14,7 +14,7 @@ img {
 }
 
 #container {
-  text-align: center;
+  	text-align: center;
 }
 
 /* Button generated at http://www.bestcssbuttongenerator.com/ ;)  */
