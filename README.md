@@ -1,5 +1,9 @@
 # Caesar Cipher
-Final project
+Proyecto final del primer sprint de Laboratoria: crear un sitio web que cifre y descifre código César.
+
+# Diagrama de Flujo
+
+![Diagrama de Flujo](https://i.imgur.com/Ixh0W5j.png?raw=true)
 # Pseudocódigo de main.js
 ```
 Crea una función que le pregunte al usuario qué cifrar o descifrar(){
@@ -9,8 +13,8 @@ Crea una función que le pregunte al usuario qué cifrar o descifrar(){
         Aplica la función cipher();
       } Si la respuesta es 2 {
         Aplica la función decipher();
-      } Si no es ninguna de las anteriores, envíale un mensaje al usuario para que ingrese
-      una opción válida;
+      } Si no es ninguna de las anteriores, envíale un mensaje al 
+      usuario para que ingrese una opción válida;
     }
   } Repite este loop mientras la respuesta sea un espacio en blanco o cualquier cosa diferente de 1 y 2.
   
@@ -22,15 +26,17 @@ Crea una función para convertir cualquier string a código César (str) {
     Crea un loop que analice los caracteres en cada índice del string {
         La variable codeAscii almacenará cada índice convertido a su equivalente Ascii;
         Si su equivalente es mayor a 65 y menor a 90 {
-            La variable output almacenará el número vuelto a convertir en letra aplicándole la fórmula correspondiente;
+            La variable output almacenará el número vuelto a convertir en letra 
+            aplicándole la fórmula correspondiente;
         } Si su equivalente es mayor a 97 y menor a 122 {
-            La variable output alamcenará el número vuelto a convertir en letra aplicándole la fórmula correspondiente;
+            La variable output alamcenará el número vuelto a convertir en letra aplicándole 
+            la fórmula correspondiente;
         } En cualquier otro caso {
             output almacenará el equivalente número volverá a ser convertido en el caracter original;
         }
     }
     
-    Crea una alert box en dónde se le entregue al usuario el resultado del cifrado ("Este es tu texto cifrado: \n" + output);
+    Crea una alert box en dónde se le entregue al usuario el resultado del cifrado;
 }
 
 Crea una función para descifrar código César (str) {
@@ -39,14 +45,16 @@ Crea una función para descifrar código César (str) {
         Crea un loop que analice los caracteres en cada índice del string {
         La variable codeAscii almacenará cada índice convertido a su equivalente Ascii;
         Si su equivalente es mayor a 65 y menor a 90 {
-            La variable output almacenará el número vuelto a convertir en letra aplicándole la fórmula correspondiente;
+            La variable output almacenará el número vuelto a convertir en letra 
+            aplicándole la fórmula correspondiente;
         } Si su equivalente es mayor a 97 y menor a 122 {
-            La variable output alamcenará el número vuelto a convertir en letra aplicándole la fórmula correspondiente;
+            La variable output alamcenará el número vuelto a convertir en letra 
+            aplicándole la fórmula correspondiente;
         } En cualquier otro caso {
             output almacenará el equivalente número volverá a ser convertido en el caracter original;
         }
     }
-    Crea una alert box en dónde se le entregue al usuario el resultado del descifrado("Este es tu texto descifrado: \n" + output);
+    Crea una alert box en dónde se le entregue al usuario el resultado del descifrado;
 }
 
 ```
