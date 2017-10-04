@@ -20,7 +20,7 @@ function whatToCipher() {
 
 
 function cipher(str) {
-    var str = prompt("¿Qué quieres cifrar?");
+    str = prompt("¿Qué quieres cifrar?");
     var output = "";
     for (var i = 0; i < str.length; i++) {
         var codeAscii = str.charCodeAt(i);
@@ -38,7 +38,7 @@ function cipher(str) {
 //This function will uncipher any ciphered phrase. 
 
 function decipher(str) {
-    var str = prompt("¿Qué quieres descifrar?");
+    str = prompt("¿Qué quieres descifrar?");
     var output = "";
     for (var i = 0; i < str.length; i++) {
         var codeAscii = str.charCodeAt(i);
