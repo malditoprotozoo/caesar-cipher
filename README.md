@@ -1,10 +1,14 @@
 # Caesar Cipher
-Proyecto final del primer sprint de Laboratoria: crear un sitio web que cifre y descifre código César.
+##### Proyecto final del primer sprint de Laboratoria: crear un sitio web que cifre y descifre código César.
 
-# Diagrama de Flujo
+## Diagrama de Flujo
 
-![Diagrama de Flujo](https://i.imgur.com/Ixh0W5j.png?raw=true)
-# Pseudocódigo de main.js
+![Diagrama de Flujo](https://i.imgur.com/IxNg70t.png?raw=true)
+
+## Comentarios
+
+
+## Pseudocódigo de mi función
 ```
 Crea una función que le pregunte al usuario qué cifrar o descifrar(){
   Crea un loop en donde el resultado dependa del input ingresado {
