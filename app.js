@@ -50,5 +50,5 @@ function decipher(str) {
             output += String.fromCharCode(codeAscii);
         }
     }
-    return alert("Este es tu texto descifrado", output);
+    return prompt("Este es tu texto descifrado", output);
 }
