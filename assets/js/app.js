@@ -28,6 +28,7 @@ function cipher(str) {
         if (codeAscii >= 48 && codeAscii <= 57) {
             alert("¡Los números no serán cifrados!");
             break; //Use of break so the alert doesn't appear one time for each number.
+            continue; //Use of continue so the alert doesn't appear one time for each number.
         } else if (codeAscii >= 65 && codeAscii <= 90) {
             output += String.fromCharCode((codeAscii - 65 + 33) % 26 + 65);
         } else if (codeAscii >= 97 && codeAscii <= 122) {
@@ -49,6 +50,7 @@ function decipher(str) {
         if (codeAscii >= 48 && codeAscii <= 57) {
             alert("¡Los números no serán descifrados!");
             break;
+            continue;
         } else if (codeAscii >= 65 && codeAscii <= 90) {
             output += String.fromCharCode((codeAscii - 65 - 7 + 52) % 26 + 65);
         } else if (codeAscii >= 97 && codeAscii <= 122) {
@@ -58,4 +60,4 @@ function decipher(str) {
         }
     }
     return prompt("Este es tu texto descifrado", output);
-}
+};
