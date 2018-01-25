@@ -16,7 +16,8 @@ function whatToCipher() {
 };
 
 
-/* This is the function that will cipher any phrase, but it'll ignore numbers.
+/*
+* This is the function that will cipher any phrase, but it'll ignore numbers.
 * You can replace '33' with the number of words you want to shift
 */
 
